@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <title>TravelGo</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top main__nav">
+      <div class="container main__container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/logo.png"
+            alt="logo"
+            width="50"
+            height="50"
+            class="nav__image"
+          />
+        </a>
+        <!-- Toggler/collapsibe Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto main__nav__list">
+            <li class="nav-item main__nav__list__item">
+              <a href="index.html" class="nav-link main__nav__tags">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="packages.html" class="nav-link main__nav__tags">Packages</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="contact.html" class="nav-link main__nav__tags">Contact Us</a>
+            </li> -->
+            <li class="nav-item">
+              <a href="booking.html" class="nav-link main__nav__tags" id="tags__last"
+                >Book Ticket</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!---Travel Section-->
+      <section class="travel">
+      <div class="row">
+        <div class="col-sm-6 travel__world">
+          <h1 class="travel__world__heading">Travel To Any Corner Of The World</h1>
+          <p class="travel__world__caption">
+            Treat Yourself With a Journey To Your Inner Self. Visit mistique Tibet and
+            start your spiritual adventure.
+          </p>
+          <div class="travel__caption">
+            <ul class="travel__caption_list">
+              <li class="travel__caption__list__item">
+                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                Make Your Dreams
+              </li>
+              <li class="travel__caption__list__item">
+                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                Travel the World
+              </li>
+            </ul>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Eiffel Tower, New York, Malindi ... |" />
+            <button>Search</button>
+          </div>
+        </div>
+        <div class="col-sm-6 travel__photo">
+          <img src="images/slides/tibet.jpg" alt="tibet" />
+        </div>
+      </div>
+    </section>
+    <!--Weekend Section-->
+    <section class="weekend__section">
+      <div class="row">
+        <div class="col-sm-6 weekend__section__first">
+          <img src="images/slides/travel-weekend.jpg" alt="travel-weekend" />
+        </div>
+        <div class="col-sm-6 weekend__section__second">
+          <h2>Take the best weekend and enjoy your place</h2>
+          <p>
+            Travel is the movement of people from one location to the next. You can
+            decide to move by road, air, sea or walk on various destinations we provide
+            on our packages. We value you and your budget that is why all our packages
+            are tailored to suite each individual and cater for all their needs. We are
+            a big family.
+          </p>
+          <ul class="weekend__section__second__list">
+            <li class="weekend__section__list__item">
+              <div class="weekend__section__image">
+                <img src="images/faces/face1.jpg" alt="face-one" />
+              </div>
+            </li>
+            <li class="weekend__section__list__item">
+              <div class="weekend__section__image">
+                <img src="images/faces/face2.jpg" alt="face-two" />
+              </div>
+            </li>
+            <li class="weekend__section__list__item">
+              <div class="weekend__section__image">
+                <img src="images/faces/face3.jpg" alt="face-three" />
+              </div>
+            </li>
+            <li class="weekend__section__list__item">
+              <div class="weekend__section__image">
+                <img src="images/faces/face4.jpg" alt="face-four" />
+              </div>
+            </li>
+            <li class="weekend__section__list__item">
+              <div class="weekend__section__image">
+                <img src="images/faces/face5.jpg" alt="face-five" />
+              </div>
+            </li>
+            <li class="weekend__section__list__item">
+              <div class="weekend__section__image"><p>4.7</p></div>
+            </li>
+          </ul>
+          <div class="weekend__button">
+            <button class="weekend__section__book">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--WORLD BEST SECTION-->
+    <section class="destination__section">
+      <h2>We Provide World Best Destination For You</h2>
+      <div class="row">
+        <div class="col-sm-4 destination__images">
+          <div>
+            <img src="images/destinations/taj-mahal.jpg" alt="taj-mahal" />
+            <div class="destination">
+              <h4>Lavish Your Soul with Love of Taj</h4>
+              <div class="destination__details">
+                <p>Taj,India</p>
+                <button class="destination__button">Ksh 59,999</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 destination__images">
+          <div>
+            <img src="images/destinations/haj.jpg" alt="mecca" />
+            <div class="destination">
+              <h4>Nourish Your Spirit at Mecca</h4>
+              <div class="destination__details">
+                <p>Mecca,Saudi</p>
+                <button class="destination__button">Ksh 29,999</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 destination__images">
+          <div>
+            <img src="images/destinations/bali.jpg" alt="bali" />
+            <div class="destination">
+              <h4>Enjoy the beauty of Bali</h4>
+              <div class="destination__details">
+                <p>Bali,Indonesia</p>
+                <button class="destination__button">Ksh 19,999</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--WHY CHOOSE US SECTION-->
+    <section class="choose">
+      <h2>Why choose us</h2>
+      <div class="row">
+        <div class="col-sm-6 choose__details__section">
+          <div class="row">
+            <div class="col-sm-6 choose__image">
+              <img src="images/choose-us/navigation.jpg" alt="reviews" />
+            </div>
+            <div class="col-sm-6 choose__details">
+              <h4>Reliable Tours</h4>
+              <p>Quickly read thousands of tour reviews from our happy customers</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 choose__image">
+              <img src="images/choose-us/airbooking.jpg" alt="air-booking" />
+            </div>
+            <div class="col-sm-6 choose__details">
+              <h4>Air Ticketing</h4>
+              <p>
+                Haiving a hustle to book air ticket. Leave it for us as you go about
+                your most demanding tasks.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 choose__image">
+              <img src="images/choose-us/hotel.jpg" alt="hotel" />
+            </div>
+            <div class="col-sm-6 choose__details">
+              <h4>Five Star Hotel</h4>
+              <p>
+                Let our experts make a booking for you at a five star hotel and enjoy
+                your holidays without a hustle.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 choose__photo">
+          <img src="images/choose-us/tourist.jpg" alt="tourist" />
+        </div>
+      </div>
+    </section>
+    <!--EMAIL SUBSCRIPTION-->
+    <section class="email">
+      <div class="row">
+        <div class="col-sm-6 email__image">
+          <img src="images/choose-us/mail.jpg" alt="" />
+        </div>
+        <div class="col-sm-6 email__form">
+          <h4>Subscribe to our newsletter & get tour updates</4>
+          <form action="#">
+            <input type="text" />
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--FOOTER-->
+    <footer class="footer__details">
+      <div class="row footer__row">
+        <div class="col-sm-3">
+          <div class="footer__logo">
+            <img src="images/logo.png" alt="logo">
+          </div>
+          <div class="footer__contacts">
+            <p>Business Number +254789054</p>
+            <p>3311 Doctors Drive, Westlands</p>
+            <p>Inquiries: travelgo@travelgo.com</p>
+          </div>
+          <ul class="footer__list__contacts">
+            <li class="list__item__contacts">
+              <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </li>
+            <li class="list__item__contacts">
+              <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            </li>
+            <li class="list__item__contacts">
+              <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li class="list__item__contacts">
+              <a href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3 footer__tour">
+          <h4>Tour</h4>
+          <ul class="tour__list">
+            <li class="tour__list-item"><a href="">Thailand</a></li>
+            <li class="tour__list-item"><a href="">India</a></li>
+            <li class="tour__list-item"><a href="">Vietnam</a></li>
+            <li class="tour__list-item"><a href="">Korea</a></li>
+            <li class="tour__list-item"><a href="">Congo</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 footer__support">
+          <h4>Support</h4>
+          <ul class="support__list">
+            <li class="support__list-item"><a href="">Account</a></li>
+            <li class="support__list-item"><a href="">Legal</a></li>
+            <li class="support__list-item"><a href="">Contact</a></li>
+            <li class="support__list-item"><a href="">Programs</a></li>
+            <li class="support__list-item"><a href="">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 footer__pages">
+          <h4>Useful Pages</h4>
+          <ul class="pages__list">
+            <li class="pages__list-item"><a href="">Deals</a></li>
+            <li class="pages__list-item"><a href="">FAQs</a></li>
+            <li class="pages__list-item"><a href="">Why Choose Us</a></li>
+            <li class="pages__list-item"><a href="">Subscribe</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="footer__copyright">&copy; TravelGo - All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

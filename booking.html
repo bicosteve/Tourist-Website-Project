@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/shared.css" />
+    <link rel="stylesheet" href="css/booking.css" />
+    <script src="bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <title>Booking</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top main__nav">
+      <div class="container main__container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/logo.png"
+            alt="logo"
+            width="50"
+            height="50"
+            class="nav__image"
+          />
+        </a>
+        <!-- Toggler/collapsibe Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto main__nav__list">
+            <li class="nav-item main__nav__list__item">
+              <a href="index.html" class="nav-link main__nav__tags">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="packages.html" class="nav-link main__nav__tags">Packages</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="#" class="nav-link main__nav__tags">Contact Us</a>
+            </li> -->
+            <li class="nav-item">
+              <a href="booking.html" class="nav-link main__nav__tags" id="tags__last"
+                >Book Ticket</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--booking-->
+    <div class="container booking">
+      <!--Where-to-->
+      <section class="where__are__you__going">
+        <h4>Where are you going?</h4>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="products">
+                  <i class="fa fa-plane odd"></i>
+                  <p>Flights</p>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="products">
+                  <i class="fa fa-bed even"></i>
+                  <p>Hotels</p>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="products">
+                  <i class="fa fa-train odd"></i>
+                  <p>Trains</p>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="products">
+                  <i class="fa fa-car even"></i>
+                  <p>Cars</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <!-- <div class="image__container">
+              <img src="images/booking/flight.jpg" alt="flight" />
+            </div> -->
+          </div>
+        </div>
+        <div class="trip__types">
+          <form action="" class="trip__types__form">
+            <input type="radio" />
+            <label>Round Trip</label>
+            <input type="radio" />
+            <label>One Way</label>
+          </form>
+          <form action="" class="travel__dates_form">
+            <label for="">From</label>
+            <input type="date" placeholder="From" />
+            <label for="">To</label>
+            <input type="date" placeholder="To" />
+            <label for="">Date</label>
+            <input type="date" />
+            <label for="">Tel</label>
+            <input type="number" />
+            <label for="">Email</label>
+            <input type="email" />
+            <input type="submit" class="submit" />
+          </form>
+        </div>
+      </section>
+      <section class="flight__deals">
+        <h4>Latest Flight Deals</h4>
+        <div class="row deals__row">
+          <div class="col-sm-4">
+            <div class="flight__deals-city">
+              <div class="deals__image__container">
+                <img src="images/booking/paris.jpg" alt="" />
+              </div>
+              <p class="city">Paris</p>
+              <p class="charge">Ksh 2000/-</p>
+              <div class="deals__button">
+                <button>Book</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="flight__deals-city">
+              <div class="deals__image__container">
+                <img src="images/booking/london.jpg" alt="" />
+              </div>
+              <p class="city">London</p>
+              <p class="charge">Ksh 2500/-</p>
+              <div class="deals__button">
+                <button>Book</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="flight__deals-city">
+              <div class="deals__image__container">
+                <img src="images/booking/toronto.jpg" alt="" />
+              </div>
+              <p class="city">Toronto</p>
+              <p class="charge">Ksh 3000/-</p>
+              <div class="deals__button">
+                <button>Book</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--FOOTER-->
+    <footer class="footer__details">
+      <div class="row footer__row">
+        <div class="col-sm-3">
+          <div class="footer__logo">
+            <img src="images/logo.png" alt="logo" />
+          </div>
+          <div class="footer__contacts">
+            <p>Business Number +254789054</p>
+            <p>3311 Doctors Drive, Westlands</p>
+            <p>Inquiries: travelgo@travelgo.com</p>
+          </div>
+          <ul class="footer__list__contacts">
+            <li class="list__item__contacts">
+              <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </li>
+            <li class="list__item__contacts">
+              <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            </li>
+            <li class="list__item__contacts">
+              <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li class="list__item__contacts">
+              <a href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3 footer__tour">
+          <h4>Tour</h4>
+          <ul class="tour__list">
+            <li class="tour__list-item"><a href="">Thailand</a></li>
+            <li class="tour__list-item"><a href="">India</a></li>
+            <li class="tour__list-item"><a href="">Vietnam</a></li>
+            <li class="tour__list-item"><a href="">Korea</a></li>
+            <li class="tour__list-item"><a href="">Congo</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 footer__support">
+          <h4>Support</h4>
+          <ul class="support__list">
+            <li class="support__list-item"><a href="">Account</a></li>
+            <li class="support__list-item"><a href="">Legal</a></li>
+            <li class="support__list-item"><a href="">Contact</a></li>
+            <li class="support__list-item"><a href="">Programs</a></li>
+            <li class="support__list-item"><a href="">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 footer__pages">
+          <h4>Useful Pages</h4>
+          <ul class="pages__list">
+            <li class="pages__list-item"><a href="">Deals</a></li>
+            <li class="pages__list-item"><a href="">FAQs</a></li>
+            <li class="pages__list-item"><a href="">Why Choose Us</a></li>
+            <li class="pages__list-item"><a href="">Subscribe</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="footer__copyright">&copy; TravelGo - All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+.booking {
+  margin-top: 90px;
+  background-color: #c2bbd8;
+  padding: 1.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* WHERE ARE YOU GOING*/
+.where__are__you__going {
+  max-width: 90%;
+  margin: auto;
+  padding: 0.8rem;
+}
+
+.where__are__you__going h4 {
+  margin: 0.5rem;
+  font-size: 1.9rem;
+  text-transform: capitalize;
+}
+
+.products {
+  padding: 0.4rem;
+  margin: 0.6rem;
+}
+
+.products i {
+  font-size: 3.1rem;
+  text-align: center;
+  margin: 0.3rem;
+}
+
+.odd {
+  color: #4574d1;
+}
+
+.even {
+  color: #db5858;
+}
+
+.products p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.trip__types {
+  padding: 0.5rem;
+  margin: 0.6rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.trip__types__form {
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  margin: 0.4rem;
+}
+
+.trip__dates__form label {
+  margin: 0 0.3rem;
+}
+
+.travel__dates_form {
+  font-size: 0.9rem;
+  padding: 0.3rem;
+  margin: 0.5rem;
+}
+
+.travel__dates_form label {
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 0.3rem;
+}
+
+.travel__dates_form input {
+  width: 100%;
+  margin: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  border: 0.5px solid grey;
+}
+
+.submit {
+  margin: 0.3rem;
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #cbb5ab;
+}
+
+/*DEALS  SECTION*/
+
+.flight__deals {
+  max-width: 90%;
+  margin: 1rem auto;
+  padding: 0.8rem;
+}
+
+.flight__deals h4 {
+  margin: 0.5rem;
+  font-size: 1.9rem;
+  text-transform: capitalize;
+}
+
+.flight__deals-city {
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.deals__image__container img {
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 50%;
+  margin: 0.5rem 0;
+}
+
+.flight__deals-city p {
+  margin: 0;
+}
+
+.city {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.charge {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.deals__button {
+  display: flex;
+  width: 60%;
+  margin: 0.5rem auto;
+  align-items: center;
+}
+
+.deals__button button {
+  width: 100%;
+  margin: 0.2rem;
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #cbb5ab;
+  border: none;
+}
+
+/*******MEDIA QUERIES**********/
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0;
+  }
+  .flight__deals {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .flight__deals-city {
+    padding: 0;
+    margin: 0;
+  }
+
+  .flight__deals h4 {
+    text-align: center;
+    /* 22174.97
+    22168.47 */
+  }
+
+  .deals__button {
+    width: 50%;
+    margin: 0.5rem auto;
+  }
+
+  .footer__details {
+    width: 100%;
+    height: 250px;
+  }
+
+  .footer__row {
+    position: relative;
+    bottom: 0;
+    top: 700px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .footer__copyright {
+    display: none;
+  }
+}
